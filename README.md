@@ -5,7 +5,7 @@ a server program to manage my files(only windows)
 + django
 + python
 
-## deploy
+## deployment
 + local
   - ```python
     python manage.py runserver
@@ -22,3 +22,7 @@ a server program to manage my files(only windows)
 + input `dir_name` into middle input, then you can add a directory into your server
 + input `!dir_name`, you can delete that directory or file
 + input `@dir_name/new_name`,you can modify your file name
+
+### Tips
++ the position of the root directory locates in the myFolders/static
+  - sometimes you can modify it directly
