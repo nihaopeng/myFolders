@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+</head>
+<body>
+<form method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+<input type="password" name="password" placeholder="修改需要密码">{{error}}
+<input type="text" name="dir" placeholder="输入文件名称">
+<input type="file" name="fileUpload" id="fileUpload">
+<input type="submit" value="submit">
+</form>
+<a href="https://frp-can.top:59066/">../</a><br></br>
+<a href="https://frp-can.top:59066/root\graduateGrade">graduateGrade</a><br></br>
+<a href="https://frp-can.top:59066/root\homework">homework</a><br></br>
+<a href="https://frp-can.top:59066/root\projects">projects</a><br></br>
+<a href="https://frp-can.top:59066/root\source">source</a><br></br>
+<a href="https://frp-can.top:59066/root\study">study</a><br></br>
+{% load static %}
+<link REL="SHORTCUT ICON" HREF="{% static 'favicon.ico' %}"/></body>
+</html>
